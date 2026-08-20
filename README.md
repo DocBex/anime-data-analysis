@@ -106,7 +106,3 @@ The analysis did not identify a clear relationship between an anime's ranking an
 ## Interactive Dashboard
 
 ➡️ [View the interactive dashboard on Tableau Public](https://public.tableau.com/views/Whatarethekeycharacteristicsoftop-rankedanime/Dashboard1?:language=de-DE&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
-Overall, manga adaptations, TV productions, and genres such as Comedy, Drama, and Action are strongly represented among the 100 top-ranked anime. However, these findings describe common characteristics within the Top 100 and should not be interpreted as evidence that these characteristics directly cause an anime to be successful.
-
-Similarly, Madhouse's strong representation among the Top 100 does not necessarily mean that titles produced by the studio will automatically achieve higher rankings or receive more user ratings.
