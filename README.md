@@ -64,3 +64,16 @@ To analyze each genre individually, the `SPLIT()` function was used to separate 
 Comedy is the most frequently occurring genre among the Top 100 ranked anime, appearing in 47 titles. Drama (45) and Action (40) follow closely behind. The Top 100 contain a total of 468 genre assignments, averaging approximately 4.7 genres per anime.
 
 ➡️ [View SQL Query](sql/question_3.sql)
+
+### Research Question 4 – Which studios have produced the most Top 100 ranked anime?
+
+The studio data had to be separated because some anime were associated with more than one studio.
+
+To analyze each studio individually, `SPLIT()` and `UNNEST()` were used to separate the values and transform them into individual rows. In addition, anime with missing studio information represented by `NULL` values were excluded using an `IS NOT NULL` condition.
+
+The dataset was also filtered to include only the 100 top-ranked anime. These steps made it possible to count the occurrence of each studio and identify which studios were most frequently represented among the Top 100.
+
+**Key Finding:**  
+Madhouse is the most frequently represented studio among the Top 100 ranked anime, contributing to 13 titles. Sunrise ranks second with 9 titles, followed by Artland (7) and Production I.G (6).
+
+➡️ [View SQL Query](sql/question_4.sql)
