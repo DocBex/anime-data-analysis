@@ -77,3 +77,16 @@ The dataset was also filtered to include only the 100 top-ranked anime. These st
 Madhouse is the most frequently represented studio among the Top 100 ranked anime, contributing to 13 titles. Sunrise ranks second with 9 titles, followed by Artland (7) and Production I.G (6).
 
 ➡️ [View SQL Query](sql/question_4.sql)
+
+### Research Question 5 – Is there a relationship between anime ranking and the number of user ratings?
+
+The relevant fields `anime_rank`, `title`, and `scored_by` were selected from the dataset.
+
+The analysis was limited to the 100 top-ranked anime, while records with a rank of 0 or no user ratings (`scored_by = 0`) were excluded because they did not provide meaningful information for the analysis.
+
+The remaining data was ordered by anime rank and used to examine the relationship between an anime's ranking and the number of user ratings it received.
+
+**Key Finding:**  
+The analysis shows that there is no strong relationship between anime ranking and the number of user ratings. Although many top-ranked anime have received a large number of ratings, several highly ranked titles have comparatively fewer user ratings, while some lower-ranked anime have significantly more. This suggests that the number of user ratings alone does not explain an anime's ranking.
+
+➡️ [View SQL Query](sql/question_5.sql)
