@@ -103,13 +103,7 @@ The analysis shows that more than 70% of the 100 top-ranked anime are adapted fr
 
 The analysis did not identify a clear relationship between an anime's ranking and the number of user ratings it received, as highly ranked titles showed considerable differences in their rating counts.
 
-## Dashboard
-
-The results of the five research questions were combined into a Tableau dashboard to provide a clear overview of the key findings of the analysis.
-
-![Anime Data Analysis Dashboard](Dashboard.png)
-
-### Interactive Dashboard
+## Interactive Dashboard
 
 ➡️ [View the interactive dashboard on Tableau Public](https://public.tableau.com/views/Whatarethekeycharacteristicsoftop-rankedanime/Dashboard1?:language=de-DE&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
