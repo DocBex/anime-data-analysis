@@ -90,3 +90,9 @@ The remaining data was ordered by anime rank and used to examine the relationshi
 The analysis shows that there is no strong relationship between anime ranking and the number of user ratings. Although many top-ranked anime have received a large number of ratings, several highly ranked titles have comparatively fewer user ratings, while some lower-ranked anime have significantly more. This suggests that the number of user ratings alone does not explain an anime's ranking.
 
 ➡️ [View SQL Query](sql/question_5.sql)
+
+## Dashboard
+
+The results of the five research questions were combined into a Tableau dashboard to provide a clear overview of the key findings of the analysis.
+
+![Anime Data Analysis Dashboard](dashboard.png)
