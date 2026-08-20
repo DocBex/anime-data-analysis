@@ -31,3 +31,16 @@ Before the analysis could begin, several data quality and import issues had to b
 - Investigated BigQuery import errors to identify problems in the source data
 - Identified that the CSV file was semicolon-separated rather than comma-separated
 - Prepared the dataset for successful import and further analysis in BigQuery
+
+## Analysis
+
+### Research Question 1 – Which source material is most common among the Top 100 ranked anime?
+
+The source material categories were first reviewed in Excel to determine whether similar categories should be combined. After reviewing the different source types, the original categories were retained.
+
+The dataset was then filtered to include the 100 top-ranked anime, grouped by source material, and aggregated to determine how frequently each source occurs among the Top 100.
+
+**Key Finding:**  
+70% of the Top 100 ranked anime are adapted from manga, making manga by far the dominant source material. Original productions represent the second-largest category (11%), followed by light novels (9%).
+
+➡️ [View SQL Query](sql/question_1.sql)
