@@ -95,4 +95,4 @@ The analysis shows that there is no strong relationship between anime ranking an
 
 The results of the five research questions were combined into a Tableau dashboard to provide a clear overview of the key findings of the analysis.
 
-![Anime Data Analysis Dashboard](dashboard.png)
+![Anime Data Analysis Dashboard](Dashboard.png)
