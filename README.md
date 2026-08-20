@@ -96,3 +96,13 @@ The analysis shows that there is no strong relationship between anime ranking an
 The results of the five research questions were combined into a Tableau dashboard to provide a clear overview of the key findings of the analysis.
 
 ![Anime Data Analysis Dashboard](Dashboard.png)
+
+## Key Findings & Conclusion
+
+The analysis shows that more than 70% of the 100 top-ranked anime are adapted from manga, while 76% are TV anime. Comedy is the most frequently represented genre, appearing in 47 titles, followed by Drama (45) and Action (40). Madhouse is the most frequently represented animation studio among the Top 100.
+
+The analysis did not identify a clear relationship between an anime's ranking and the number of user ratings it received, as highly ranked titles showed considerable differences in their rating counts.
+
+Overall, manga adaptations, TV productions, and genres such as Comedy, Drama, and Action are strongly represented among the 100 top-ranked anime. However, these findings describe common characteristics within the Top 100 and should not be interpreted as evidence that these characteristics directly cause an anime to be successful.
+
+Similarly, Madhouse's strong representation among the Top 100 does not necessarily mean that titles produced by the studio will automatically achieve higher rankings or receive more user ratings.
