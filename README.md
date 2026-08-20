@@ -44,3 +44,12 @@ The dataset was then filtered to include the 100 top-ranked anime, grouped by so
 70% of the Top 100 ranked anime are adapted from manga, making manga by far the dominant source material. Original productions represent the second-largest category (11%), followed by light novels (9%).
 
 ➡️ [View SQL Query](sql/question_1.sql)
+
+### Research Question 2 – Top 100 Anime: Distribution of Anime Types
+
+The dataset was filtered to include the 100 top-ranked anime. The anime were then grouped by type, such as TV, Movie, OVA, ONA, Special, and Music, and the number of titles within each category was calculated to identify the most common anime types among the Top 100.
+
+**Key Finding:**  
+TV anime dominate the Top 100 ranking, accounting for 76% of all titles. Movies represent the second-largest category with 21 entries, while OVA, ONA, Specials, and Music videos appear only occasionally.
+
+➡️ [View SQL Query](sql/question_2.sql)
