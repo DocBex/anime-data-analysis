@@ -53,3 +53,14 @@ The dataset was filtered to include the 100 top-ranked anime. The anime were the
 TV anime dominate the Top 100 ranking, accounting for 76% of all titles. Movies represent the second-largest category with 21 entries, while OVA, ONA, Specials, and Music videos appear only occasionally.
 
 ➡️ [View SQL Query](sql/question_2.sql)
+
+### Research Question 3 – Which genres are most common among the Top 100 ranked anime?
+
+The genre data had to be separated because one anime can be associated with multiple genres. In the original dataset, these genres were stored as comma-separated values within a single field.
+
+To analyze each genre individually, the `SPLIT()` function was used to separate the values, while `UNNEST()` transformed them into individual rows. This made it possible to count the occurrence of each genre among the 100 top-ranked anime and identify the most common genres.
+
+**Key Finding:**  
+Comedy is the most frequently occurring genre among the Top 100 ranked anime, appearing in 47 titles. Drama (45) and Action (40) follow closely behind. The Top 100 contain a total of 468 genre assignments, averaging approximately 4.7 genres per anime.
+
+➡️ [View SQL Query](sql/question_3.sql)
